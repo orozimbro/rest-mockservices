@@ -1,27 +1,52 @@
 {
+  "workOrder" : [
+    {
+      "id": "A12644",
+	  "status": "Pendente",
+      "statusReason": "Agendamento",
+	  "BusinessInteractionLocationSpecifiesThePlaceFor": {
+        "Place": {
+          "PlacePhysicalResourceAssoc": {
+            "Cabinet": {
+              "name": "PRCTA_G1D23"
+            }
+            "PhysicalLink": {
+              "mediaType": "GPON"
+            }
+          }
+          "city": "CURITIBA",
+          "streetName": "RUA CATHARINA DORIGON",
+          "stateOrProvince": "PR",
+          "streetNrFirst": 7,
+          "postcode": "81210040",
+          "cnl": "41000",
+          "streetCode": "I100005191",
+          "neighborhood": "MOSSUNGUE",
+          "networkOwner": "VIVO2"
+        }
+      },
+      "BusinessInteractionItemInvolvesProduct": [
+        {"productStatus": "Ativo", "id": "08668268", "serviceId": "CTA-08668268-069"},
+        {"productStatus": "Ativo", "id": "51062751", "serviceId": "CTA-V0001NMV5R-013"}
+      ],
+      "WorkOrderItemInvolvesWorkSpec": {
+        "specificationAcronym": "TT_B",
+        "specificationDescription": {
+          "label": "TIPO",
+          "value": "Defeito"
+        },
+        "specificationDescription": {
+          "label": "PRODUTO",
+          "value": "Banda Larga"
+        }
+      }
+    }
+  ],
   "posts": [
     {
       "id": 1,
       "title": "json-server",
       "author": "typicode"
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
     },
     {
       "nome": "Hambúrguer de frango",
@@ -63,8 +88,5 @@
       "body": "some comment",
       "postId": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "nome": "Hambúrguer de frango",
+      "descricao": "Pão, bife de hambúrguer 90g de frango, salada e batata.",
+      "preco": 9.5,
+      "categoria_id": 1,
+      "id": 23
+    },
+    {
+      "nome": "Hambúrguer de frango",
+      "descricao": "Pão, bife de hambúrguer 90g de frango, salada e batata.",
+      "preco": 9.5,
+      "categoria_id": 1,
+      "id": 24
+    },
+    {
+      "nome": "Hambúrguer de frango",
+      "descricao": "Pão, bife de hambúrguer 90g de frango, salada e batata.",
+      "preco": 9.5,
+      "categoria_id": 1,
+      "id": 25
+    },
+    {
+      "nome": "Hambúrguer de frango",
+      "descricao": "Pão, bife de hambúrguer 90g de frango, salada e batata.",
+      "preco": 9.5,
+      "categoria_id": 1,
+      "sub_posts": {
+        "nome": "Hambúrguer de frango",
+        "descricao": "Pão, bife de hambúrguer 90g de frango, salada e batata.",
+        "preco": 9.5
+      },
+      "id": 26
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
